@@ -15,6 +15,12 @@ public class DemoApplication {
 
 		ConfigurableApplicationContext context = SpringApplication.run(DemoApplication.class, args);
 
+		// browse to:
+		// http://localhost:8090/h2-console
+		// username: sa
+		// pwd:
+		// JDBC URL: jdbc:h2:mem:bookstore
+
 		Object dataSource = context.getBean("dataSource");
 
 		System.out.println("======================");
