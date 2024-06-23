@@ -1,0 +1,1 @@
+insert into book (title, pages, author) values ('Spring boot: Up and Running', 328, 'Mark Heckler');
