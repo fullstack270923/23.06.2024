@@ -32,7 +32,10 @@ public class DemoApplication {
 	@Bean
 	CommandLineRunner commandLineRunner(BookRepository repository) {
 		return args -> {
-			repository.save(new Book(null, "Spring boot in Action", 471, "Craig Walls"));
+			repository.save(new
+					Book(null,
+					"Spring boot in Action",
+					471, "Craig Walls"));
 		};
 	}
 
